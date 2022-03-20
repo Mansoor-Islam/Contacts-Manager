@@ -1,0 +1,11 @@
+{
+  "contacts": [
+    {
+      "name": "ABc",
+      "phone": "0000000",
+      "email": "mansoorislam@gmail.com",
+      "city": "Hyderabad",
+      "id": 1
+    }
+  ]
+}
