@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "http://localhost:5000/contacts";
+const url = `${process.env.REACT_APP_API_URL}`;
 
 export const fetchContacts = async (id) => {
   id = id || "";

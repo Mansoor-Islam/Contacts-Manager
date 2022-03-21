@@ -58,10 +58,14 @@ const ContactsTable: FC = () => {
             return (
               <TableRow key={index}>
                 <TableCell>{contact.id}</TableCell>
-                <TableCell>{contact.name}</TableCell>
+                <TableCell sx={{ textTransform: "capitalize" }}>
+                  {contact.name}
+                </TableCell>
                 <TableCell>{contact.phone}</TableCell>
                 <TableCell>{contact.email}</TableCell>
-                <TableCell>{contact.city}</TableCell>
+                <TableCell sx={{ textTransform: "capitalize" }}>
+                  {contact.city}
+                </TableCell>
                 <TableCell>
                   <Box
                     sx={{
